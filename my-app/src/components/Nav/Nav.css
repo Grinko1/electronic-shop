@@ -1,0 +1,56 @@
+.nav-container{
+    
+    max-width: auto;
+    margin-top: 0px;
+    padding: 0;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    width: 300px;
+    margin-left: 10px;
+    
+}
+@media(max-width:380px){
+    .logo{
+     width: 200px;
+     
+    }
+}
+
+.nav-cart{
+display: flex;
+padding: 10px;
+color: white;
+margin-right: 10px;
+}
+.linkToAdmin{
+    margin-right: 20px;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+@media(max-width:420px){
+    .linkToAdmin{
+        display: none;
+    }
+}
+@media(max-width:400px){
+    .linkToAdmin{
+        display: none;
+    }
+}
+.bi-bag-check{
+color: white;
+}
+.admin p{
+    color: white !important;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: white;
+}

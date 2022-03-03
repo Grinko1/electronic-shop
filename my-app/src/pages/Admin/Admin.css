@@ -1,0 +1,77 @@
+.list-product{
+    
+}
+.admin-create{
+    height: auto;
+}
+
+.form{
+    margin: 50px 400px 50px 400px;
+}
+.create-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.create-form input{
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 10px;
+border:1px solid gray;
+
+}
+.create-form textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+textarea {outline:none;}
+.create-form p{
+    text-align: center;
+}
+.admin-select{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.btn-create-admin{
+    margin: 10px 150px 10px 150px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid orange;
+    background: white;
+    color: orange;
+    
+}
+.linkBtn a{
+    color:black;
+}
+.linkBtn{
+    margin: 10px 0 0 20px;
+    padding: 10px;
+    border-radius:20px;
+    border: 1px solid orange;
+    background: white;
+    color: orange;
+}
+.admin-links a{
+    color:black;
+    font-size: 18px;
+   
+}
+.admin-links{
+    text-align: center;
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+.each-link{
+    margin-bottom: 10px;
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+}
